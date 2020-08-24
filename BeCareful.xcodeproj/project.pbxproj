@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		25C7637EB572CCFB80C3FE84 /* Pods_BeCarefulTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D8DC8A512EE0FFAD071A43 /* Pods_BeCarefulTests.framework */; };
 		57D68E9924EC406000ACC3BC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D68E9824EC406000ACC3BC /* RegisterViewController.swift */; };
+		A36D020924F40BCC00260C0D /* VerifyCodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D020424F40BCC00260C0D /* VerifyCodePresenter.swift */; };
+		A36D020B24F40BCC00260C0D /* VerifyCodeUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D020624F40BCC00260C0D /* VerifyCodeUseCases.swift */; };
+		A36D020C24F40BCC00260C0D /* VerifyCodeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D020724F40BCC00260C0D /* VerifyCodeRouter.swift */; };
+		A36D020D24F40BCC00260C0D /* VerifyCodeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D020824F40BCC00260C0D /* VerifyCodeInteractor.swift */; };
+		A36D020F24F40C2F00260C0D /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D020E24F40C2F00260C0D /* VerifyCodeViewController.swift */; };
 		A3A2ED70242875A800043415 /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A2ED6F242875A800043415 /* Tutorial.storyboard */; };
 		A3F8454024304EE80040A1FF /* IAUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8453B24304EE80040A1FF /* IAUIView.swift */; };
 		A3F8454324304EE80040A1FF /* IAGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8453F24304EE80040A1FF /* IAGradientButton.swift */; };
@@ -21,7 +26,6 @@
 		A3FCC5EE2428171D007D33A6 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FCC5ED2428171D007D33A6 /* Splash.storyboard */; };
 		A3FCC5F224281754007D33A6 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCC5F124281754007D33A6 /* SplashViewController.swift */; };
 		A3FCC5F52428182C007D33A6 /* UIStoryboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCC5F42428182C007D33A6 /* UIStoryboardExtensions.swift */; };
-		BA041B2F248EFD8400968AA0 /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA041B2E248EFD8400968AA0 /* VerifyCodeViewController.swift */; };
 		BA1A38A6248811140004F876 /* RegisterWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A38A0248811140004F876 /* RegisterWorker.swift */; };
 		BA1A38BF24881AC00004F876 /* RegisterViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A38BB24881AC00004F876 /* RegisterViewControllerTests.swift */; };
 		BA1A38C024881AC00004F876 /* RegisterInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A38BC24881AC00004F876 /* RegisterInteractorTests.swift */; };
@@ -76,6 +80,11 @@
 		30CD7DCE6422E1AB504E39EF /* Pods-BeCareful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeCareful.release.xcconfig"; path = "Target Support Files/Pods-BeCareful/Pods-BeCareful.release.xcconfig"; sourceTree = "<group>"; };
 		57D68E9824EC406000ACC3BC /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		5EF066D088C3E2CE33B5149A /* Pods-BeCareful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeCareful.debug.xcconfig"; path = "Target Support Files/Pods-BeCareful/Pods-BeCareful.debug.xcconfig"; sourceTree = "<group>"; };
+		A36D020424F40BCC00260C0D /* VerifyCodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodePresenter.swift; sourceTree = "<group>"; };
+		A36D020624F40BCC00260C0D /* VerifyCodeUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeUseCases.swift; sourceTree = "<group>"; };
+		A36D020724F40BCC00260C0D /* VerifyCodeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeRouter.swift; sourceTree = "<group>"; };
+		A36D020824F40BCC00260C0D /* VerifyCodeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeInteractor.swift; sourceTree = "<group>"; };
+		A36D020E24F40C2F00260C0D /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
 		A3A2ED6F242875A800043415 /* Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
 		A3F8453B24304EE80040A1FF /* IAUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAUIView.swift; sourceTree = "<group>"; };
 		A3F8453F24304EE80040A1FF /* IAGradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAGradientButton.swift; sourceTree = "<group>"; };
@@ -90,7 +99,6 @@
 		A3FCC5F42428182C007D33A6 /* UIStoryboardExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtensions.swift; sourceTree = "<group>"; };
 		AE23F4457947057B41202E29 /* Pods-BeCarefulTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeCarefulTests.debug.xcconfig"; path = "Target Support Files/Pods-BeCarefulTests/Pods-BeCarefulTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B471C3B814179FD7B9881A9A /* Pods-BeCarefulTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeCarefulTests.release.xcconfig"; path = "Target Support Files/Pods-BeCarefulTests/Pods-BeCarefulTests.release.xcconfig"; sourceTree = "<group>"; };
-		BA041B2E248EFD8400968AA0 /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
 		BA1A38A0248811140004F876 /* RegisterWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterWorker.swift; sourceTree = "<group>"; };
 		BA1A38AF24881A620004F876 /* BeCarefulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeCarefulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1A38B324881A620004F876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -198,7 +206,11 @@
 		A3F8454824316F8D0040A1FF /*  VerifyCode */ = {
 			isa = PBXGroup;
 			children = (
-				BA041B2E248EFD8400968AA0 /* VerifyCodeViewController.swift */,
+				A36D020424F40BCC00260C0D /* VerifyCodePresenter.swift */,
+				A36D020624F40BCC00260C0D /* VerifyCodeUseCases.swift */,
+				A36D020724F40BCC00260C0D /* VerifyCodeRouter.swift */,
+				A36D020824F40BCC00260C0D /* VerifyCodeInteractor.swift */,
+				A36D020E24F40C2F00260C0D /* VerifyCodeViewController.swift */,
 			);
 			path = " VerifyCode";
 			sourceTree = "<group>";
@@ -709,18 +721,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36D020924F40BCC00260C0D /* VerifyCodePresenter.swift in Sources */,
 				EC71A1F82428609700FF187D /* Definitions.swift in Sources */,
+				A36D020C24F40BCC00260C0D /* VerifyCodeRouter.swift in Sources */,
 				EC20F95E242935A8002D076E /* UIViewController+Extension.swift in Sources */,
 				ECF8F61424271DBD00C82FBB /* (null) in Sources */,
 				BA1A38C62488204D0004F876 /* Mocks.swift in Sources */,
+				A36D020B24F40BCC00260C0D /* VerifyCodeUseCases.swift in Sources */,
 				A3F84547243055970040A1FF /* UIColorExtension.swift in Sources */,
 				EC71A2002428830B00FF187D /* ItemBluetoothTableViewCell.swift in Sources */,
 				EC71A1F52428607600FF187D /* CentralViewController.swift in Sources */,
-				BA041B2F248EFD8400968AA0 /* VerifyCodeViewController.swift in Sources */,
 				E9FFF95D2427308300EBF7DE /* URLSessionExtension.swift in Sources */,
 				ECF8F61024271DBD00C82FBB /* AppDelegate.swift in Sources */,
+				A36D020F24F40C2F00260C0D /* VerifyCodeViewController.swift in Sources */,
 				A3FCC5DC242800DA007D33A6 /* HomeViewController.swift in Sources */,
 				BA3CDBB1248708BE004925E1 /* AppDelegate+Extension.swift in Sources */,
+				A36D020D24F40BCC00260C0D /* VerifyCodeInteractor.swift in Sources */,
 				A3F8454324304EE80040A1FF /* IAGradientButton.swift in Sources */,
 				A3FCC5E5242801A9007D33A6 /* TutorialViewController.swift in Sources */,
 				A3FCC5F224281754007D33A6 /* SplashViewController.swift in Sources */,
