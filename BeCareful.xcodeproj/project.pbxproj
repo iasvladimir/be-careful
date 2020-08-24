@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		25C7637EB572CCFB80C3FE84 /* Pods_BeCarefulTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D8DC8A512EE0FFAD071A43 /* Pods_BeCarefulTests.framework */; };
-		57D68E9924EC406000ACC3BC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D68E9824EC406000ACC3BC /* RegisterViewController.swift */; };
 		A3A2ED70242875A800043415 /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A2ED6F242875A800043415 /* Tutorial.storyboard */; };
 		A3F8454024304EE80040A1FF /* IAUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8453B24304EE80040A1FF /* IAUIView.swift */; };
 		A3F8454324304EE80040A1FF /* IAGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8453F24304EE80040A1FF /* IAGradientButton.swift */; };
@@ -40,6 +39,11 @@
 		E9FFF95D2427308300EBF7DE /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FFF95C2427308300EBF7DE /* URLSessionExtension.swift */; };
 		E9FFF95F242734BC00EBF7DE /* APIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FFF95E242734BC00EBF7DE /* APIData.swift */; };
 		E9FFF9622429D69100EBF7DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9FFF9612429D69100EBF7DE /* GoogleService-Info.plist */; };
+		EADECDC924F43FC400FD39C5 /* RegisterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADECDC424F43FC400FD39C5 /* RegisterModels.swift */; };
+		EADECDCA24F43FC400FD39C5 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADECDC524F43FC400FD39C5 /* RegisterPresenter.swift */; };
+		EADECDCB24F43FC400FD39C5 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADECDC624F43FC400FD39C5 /* RegisterInteractor.swift */; };
+		EADECDCC24F43FC400FD39C5 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADECDC724F43FC400FD39C5 /* RegisterRouter.swift */; };
+		EADECDCD24F43FC400FD39C5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADECDC824F43FC400FD39C5 /* RegisterViewController.swift */; };
 		EC20F95E242935A8002D076E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20F95D242935A8002D076E /* UIViewController+Extension.swift */; };
 		EC71A1EF24285FE200FF187D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC71A1EE24285FE200FF187D /* CoreBluetooth.framework */; };
 		EC71A1F22428604100FF187D /* Bluetooth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC71A1F12428604100FF187D /* Bluetooth.storyboard */; };
@@ -74,7 +78,6 @@
 /* Begin PBXFileReference section */
 		04E33DB3FCE78DA4893CF857 /* Pods_BeCareful.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeCareful.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CD7DCE6422E1AB504E39EF /* Pods-BeCareful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeCareful.release.xcconfig"; path = "Target Support Files/Pods-BeCareful/Pods-BeCareful.release.xcconfig"; sourceTree = "<group>"; };
-		57D68E9824EC406000ACC3BC /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		5EF066D088C3E2CE33B5149A /* Pods-BeCareful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeCareful.debug.xcconfig"; path = "Target Support Files/Pods-BeCareful/Pods-BeCareful.debug.xcconfig"; sourceTree = "<group>"; };
 		A3A2ED6F242875A800043415 /* Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
 		A3F8453B24304EE80040A1FF /* IAUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAUIView.swift; sourceTree = "<group>"; };
@@ -114,6 +117,11 @@
 		E9FFF95C2427308300EBF7DE /* URLSessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
 		E9FFF95E242734BC00EBF7DE /* APIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIData.swift; sourceTree = "<group>"; };
 		E9FFF9612429D69100EBF7DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EADECDC424F43FC400FD39C5 /* RegisterModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterModels.swift; sourceTree = "<group>"; };
+		EADECDC524F43FC400FD39C5 /* RegisterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		EADECDC624F43FC400FD39C5 /* RegisterInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		EADECDC724F43FC400FD39C5 /* RegisterRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		EADECDC824F43FC400FD39C5 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = "../../../../../be-careful/BeCareful/Modules/Register/Register scene/RegisterViewController.swift"; sourceTree = "<group>"; };
 		EC20F95D242935A8002D076E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		EC71A1EE24285FE200FF187D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		EC71A1F12428604100FF187D /* Bluetooth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bluetooth.storyboard; sourceTree = "<group>"; };
@@ -276,7 +284,11 @@
 		BA1A389E248810DF0004F876 /* Register scene */ = {
 			isa = PBXGroup;
 			children = (
-				57D68E9824EC406000ACC3BC /* RegisterViewController.swift */,
+				EADECDC524F43FC400FD39C5 /* RegisterPresenter.swift */,
+				EADECDC724F43FC400FD39C5 /* RegisterRouter.swift */,
+				EADECDC424F43FC400FD39C5 /* RegisterModels.swift */,
+				EADECDC824F43FC400FD39C5 /* RegisterViewController.swift */,
+				EADECDC624F43FC400FD39C5 /* RegisterInteractor.swift */,
 			);
 			path = "Register scene";
 			sourceTree = "<group>";
@@ -713,6 +725,7 @@
 				EC20F95E242935A8002D076E /* UIViewController+Extension.swift in Sources */,
 				ECF8F61424271DBD00C82FBB /* (null) in Sources */,
 				BA1A38C62488204D0004F876 /* Mocks.swift in Sources */,
+				EADECDCB24F43FC400FD39C5 /* RegisterInteractor.swift in Sources */,
 				A3F84547243055970040A1FF /* UIColorExtension.swift in Sources */,
 				EC71A2002428830B00FF187D /* ItemBluetoothTableViewCell.swift in Sources */,
 				EC71A1F52428607600FF187D /* CentralViewController.swift in Sources */,
@@ -720,7 +733,9 @@
 				E9FFF95D2427308300EBF7DE /* URLSessionExtension.swift in Sources */,
 				ECF8F61024271DBD00C82FBB /* AppDelegate.swift in Sources */,
 				A3FCC5DC242800DA007D33A6 /* HomeViewController.swift in Sources */,
+				EADECDCD24F43FC400FD39C5 /* RegisterViewController.swift in Sources */,
 				BA3CDBB1248708BE004925E1 /* AppDelegate+Extension.swift in Sources */,
+				EADECDC924F43FC400FD39C5 /* RegisterModels.swift in Sources */,
 				A3F8454324304EE80040A1FF /* IAGradientButton.swift in Sources */,
 				A3FCC5E5242801A9007D33A6 /* TutorialViewController.swift in Sources */,
 				A3FCC5F224281754007D33A6 /* SplashViewController.swift in Sources */,
@@ -728,11 +743,12 @@
 				A3FCC5E8242803F4007D33A6 /* RecomendationsTableViewCell.swift in Sources */,
 				E9FFF95524272B4600EBF7DE /* Register.swift in Sources */,
 				E998BC822431B24900EA552D /* DevicesModel.swift in Sources */,
+				EADECDCC24F43FC400FD39C5 /* RegisterRouter.swift in Sources */,
 				BAC956C424885C07009A0FFB /* UserDefaults.swift in Sources */,
 				BA2A4EE62489626E007836AA /* UIImage+GIF.swift in Sources */,
 				BA1A38C424881FA50004F876 /* MockAPIData.swift in Sources */,
 				BA2A4EE82489682D007836AA /* SplashRouter.swift in Sources */,
-				57D68E9924EC406000ACC3BC /* RegisterViewController.swift in Sources */,
+				EADECDCA24F43FC400FD39C5 /* RegisterPresenter.swift in Sources */,
 				E9FFF95F242734BC00EBF7DE /* APIData.swift in Sources */,
 				E9FFF95724272C9000EBF7DE /* User.swift in Sources */,
 				BA1A38A6248811140004F876 /* RegisterWorker.swift in Sources */,
