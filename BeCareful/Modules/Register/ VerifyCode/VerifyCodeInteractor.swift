@@ -34,12 +34,12 @@ class VerifyCodeInteractor: VerifyCodeBusinessLogic, VerifyCodeDataStore {
     }
     
     func completeRegister(request: VerifyCode.RegisterSuccess.Request) {
-        if let status = worker?.isValidCode(code: request.code), status {
+        if let status = worker?.isValidCode(code: request.code), !status {
             let response = VerifyCode.RegisterSuccess.Response(errorMessage: "Código no válido")
             presenter?.presentError(response: response)
         } else {
             let data = RegisterOTP(phone: AppUserDefaults.phoneNumber, idDevice: deviceID ?? "", otp: request.code)
-            
+
             worker?.completeRegister(data: data) { [weak self] error in
                 if error == nil {
                     self?.presenter?.presentRegisterSuccess()
