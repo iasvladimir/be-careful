@@ -19,11 +19,5 @@ enum Register {
     struct Request {
         var phoneNumber: String?
     }
-    struct Response {
-        
-    }
-    struct ViewModel {
-        
-    }
   }
 }

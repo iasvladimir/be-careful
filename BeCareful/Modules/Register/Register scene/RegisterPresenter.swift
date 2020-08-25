@@ -13,7 +13,7 @@
 import UIKit
 
 protocol RegisterPresentationLogic {
-    func presentVerifyCode(response: Register.Phone.Response)
+    func presentVerifyCode()
     func presentError()
 }
 
@@ -22,9 +22,8 @@ class RegisterPresenter: RegisterPresentationLogic {
 
     // MARK: Display Verify Code
 
-    func presentVerifyCode(response: Register.Phone.Response) {
-        let viewModel = Register.Phone.ViewModel()
-        viewController?.displayVerifyCode(viewModel: viewModel)
+    func presentVerifyCode() {
+        viewController?.displayVerifyCode()
     }
     
     func presentError() {

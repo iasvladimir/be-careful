@@ -34,8 +34,7 @@ class RegisterInteractor: RegisterBusinessLogic, RegisterDataStore {
         worker = RegisterWorker()
         switch worker.validatePhone(phoneNumber: request.phoneNumber) {
         case true:
-            let response = Register.Phone.Response()
-            presenter?.presentVerifyCode(response: response)
+            presenter?.presentVerifyCode()
         case false:
             showError()
         }
